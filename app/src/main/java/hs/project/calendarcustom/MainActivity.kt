@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnLibrary.setOnClickListener {
-
+            val intent = Intent(this, LibraryActivity::class.java)
+            startActivity(intent)
         }
 
     }
